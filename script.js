@@ -25,8 +25,27 @@ while(w5);
 
 function Ola(faculdade){
     console.log(`Seja bem vindo a ${faculdade}`)
-    alert(`Seja bem vindo a ${faculdade}`)
+    //alert(`Seja bem vindo a ${faculdade}`)
     write(`Seja bem vindo a ${faculdade}`)
 }
 //EXECUTANDO A FUNÇÃO OLA PASSANDO O VALOR
 Ola("fiap")
+
+//ARROW FUNCTION
+
+const hello=()=>(console.log("função arro function"))
+
+hello()
+
+//ARRAY [], OBJETO {} E METODOS ()
+
+let jogadores =[
+    {nome:"Huginho",idade:17}
+    {nome:"Zezinho",idade:18}
+    {nome:"Luizinho",idade:19}
+]
+
+let listarJogadores = jogadores.map(function(item){
+    return item.nome;
+})
+comsole.log(listarJogadores)
