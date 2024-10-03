@@ -40,9 +40,9 @@ hello()
 //ARRAY [], OBJETO {} E METODOS ()
 
 let jogadores = [
-    {nome:"Huginho",idade:17}
-    {nome:"Zezinho",idade:18}
-    {nome:"Luizinho",idade:19}
+    {nome:"Huginho",idade:17},
+    {nome:"Zezinho",idade:18},
+    {nome:"Luizinho",idade:19},
 ]
 
 let listarJogadores = jogadores.map(function(item){
