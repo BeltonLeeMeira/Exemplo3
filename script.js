@@ -39,7 +39,7 @@ hello()
 
 //ARRAY [], OBJETO {} E METODOS ()
 
-let jogadores =[
+let jogadores = [
     {nome:"Huginho",idade:17}
     {nome:"Zezinho",idade:18}
     {nome:"Luizinho",idade:19}
